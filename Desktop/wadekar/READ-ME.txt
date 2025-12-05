@@ -1,9 +1,0 @@
-  =>  Template Name    : Ajay Sir Notes
-
-  =>  Template Link    : #
-
-  =>  Template License :#
-
-  =>  Template Author  : Ajay Sir
-
-  =>  Author Website   : https://wadekar.netlify.app

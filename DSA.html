@@ -129,9 +129,27 @@ void insert (int x)
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                    
-                    <h4>Best Interior Design</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo
-                        justo et tempor eirmod magna dolore erat amet</p>
+                    <h4>Add Node at End</h4>
+                    <p class="mb-0">
+						<pre>
+							oid insertAE(int x)
+{
+	Node *newNode = new Node;
+	newNode->data = x;
+	newNode->next = NULL;
+	
+	Node *temp  = head;
+	
+	while(temp->next != NULL)
+	{
+		temp = temp->next;
+	}
+	
+	temp->next = newNode;
+	
+}
+						</pre>
+						</p>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                   
